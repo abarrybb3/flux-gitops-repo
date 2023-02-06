@@ -1,8 +1,7 @@
 # This is a basic workflow to help you get started with Action
-
+---
 name: Yaml Lint
 on: [push]  # yamllint disable-line rule:truthy
-
 jobs:
   lintAllTheThings:
     runs-on: ubuntu-latest
