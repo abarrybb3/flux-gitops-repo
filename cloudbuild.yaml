@@ -6,7 +6,7 @@ steps:
   args:
   - 'apply'
   - '-f'
-  - 'web-app-deployment.yaml'
+  - '/dev/web-app-deployment.yaml'
   env:
   - 'CLOUDSDK_COMPUTE_REGION=us-east1'
   - 'CLOUDSDK_CONTAINER_CLUSTER=bb-demo-project-gke-dev'
