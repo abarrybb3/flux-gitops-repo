@@ -17,6 +17,6 @@ spec:
     spec:
       containers:
         - name: web-app
-          image: 'us-east1-docker.pkg.dev/${PROJECT_ID}/bb-demo-dev-artifactrepo/web-app-bb-repo:801631f'
+          image: us-east1-docker.pkg.dev/bb-demo-project/bb-demo-dev-artifactrepo/web-app-bb-repo:801631f
           ports:
             - containerPort: 80
