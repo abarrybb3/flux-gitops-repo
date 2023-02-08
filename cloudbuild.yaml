@@ -3,10 +3,11 @@ steps:
 # in the hello-cloudbuild Kubernetes Engine cluster.
 - name: 'gcr.io/cloud-builders/kubectl'
   id: Deploy
+  dir: dev/
   args:
   - 'apply'
   - '-f'
-  - '/dev/web-app-deployment.yaml'
+  - 'web-app-deployment.yaml'
   env:
   - 'CLOUDSDK_COMPUTE_REGION=us-east1'
   - 'CLOUDSDK_CONTAINER_CLUSTER=bb-demo-project-gke-dev'
