@@ -12,6 +12,3 @@ steps:
   env:
   - 'CLOUDSDK_COMPUTE_REGION=us-east1'
   - 'CLOUDSDK_CONTAINER_CLUSTER=bb-demo-project-gke-dev'
-  #- 'GOOGLE_APPLICATION_CREDENTIALS=/Downloads/bb-demo-project-d94fff449584.json'
-#options:
- # logging: CLOUD_LOGGING_ONLY
