@@ -19,4 +19,4 @@ spec:
         - name: web-app
           image: us-east1-docker.pkg.dev/bb-demo-project/bb-demo-dev-artifactrepo/web-app-bb-repo:801631f
           ports:
-            - containerPort: 80
+            - containerPort: 8080
