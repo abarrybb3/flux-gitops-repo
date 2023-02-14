@@ -1,4 +1,3 @@
----
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -17,6 +16,6 @@ spec:
     spec:
       containers:
         - name: web-app
-          image: us-east1-docker.pkg.dev/bb-demo-project/bb-demo-dev-artifactrepo/web-app-bb-repo:801631f # {"$imagepolicy": "flux-system:my-image-policy"}
+          image: us-east1-docker.pkg.dev/bb-demo-project/bb-demo-dev-artifactrepo/web-app-bb-repo:4.0.0 # {"$imagepolicy": "flux-system:my-image-policy"}
           ports:
             - containerPort: 8080
