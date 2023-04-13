@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: web-app
-          image: us-east1-docker.pkg.dev/bb-demo-project/bb-demo-dev-artifactrepo/web-app-bb-repo:5.0.0 # {"$imagepolicy": "flux-system:my-image-policy"}
+          image: us-docker.pkg.dev/${PROJECT_ID}/web-app-bb-repo/web:5.0.0 # {"$imagepolicy": "flux-system:my-image-policy"}
           ports:
             - containerPort: 8080
