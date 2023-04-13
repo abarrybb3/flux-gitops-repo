@@ -11,4 +11,4 @@ steps:
   - 'web-app-deployment.yaml'
   env:
   - 'CLOUDSDK_COMPUTE_REGION=us-east1'
-  - 'CLOUDSDK_CONTAINER_CLUSTER=bb-demo-project-gke-dev'
+  - 'CLOUDSDK_CONTAINER_CLUSTER=trusty-axe-380021-gke-dev'
