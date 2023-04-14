@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: web-app
-          image: us-docker.pkg.dev/trusty-axe-380021/web-app-bb-repo/web:5.0.0 # {"$imagepolicy": "flux-system:my-image-policy"}
+          image: us-docker.pkg.dev/trusty-axe-380021/web-app-bb-repo/web:5.0.0 # {"$imagepolicy": "flux-system:mydocker-image-pull-policy"}
           ports:
             - containerPort: 8080
